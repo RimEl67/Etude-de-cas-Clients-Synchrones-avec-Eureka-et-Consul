@@ -49,12 +49,8 @@ Le **Service Client** expose trois endpoints distincts pour tester chaque implé
 | Feign Client     | `GET /api/clients/{id}/car/feign`           | Client déclaratif |
 | WebClient        | `GET /api/clients/{id}/car/webclient`       | Client réactif (bloquant ici) |
 
-### Exemples de tests manuels
 
-```bash
-curl http://localhost:8082/api/clients/1/car/rest
-curl http://localhost:8082/api/clients/1/car/feign
-curl http://localhost:8082/api/clients/1/car/webclient
+
 ## 📊 Tests de performance
 
 ### Méthodologie
